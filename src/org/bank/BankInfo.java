@@ -8,7 +8,9 @@ public class BankInfo extends AxisBank{
 	public void fixed() {
 		System.out.println("Fixed Amount: 45000");
 	}
-	
+	public void newAmount() {
+		System.out.println("New Salary: 81000");
+	}
 	public void expectedSalary() {
 		System.out.println("Expected Salary: 1,20,000");
 	}
@@ -18,6 +20,7 @@ public class BankInfo extends AxisBank{
 		b.saving();
 		b.fixed();
 		b.deposit();
+		b.newAmount();
 		b.expectedSalary();
 	}
 }
