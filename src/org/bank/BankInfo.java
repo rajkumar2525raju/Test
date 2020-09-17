@@ -9,10 +9,15 @@ public class BankInfo extends AxisBank{
 		System.out.println("Fixed Amount: 45000");
 	}
 	
+	public void expectedSalary() {
+		System.out.println("Expected Salary: 1,20,000");
+	}
+	
 	public static void main(String[] args) {
 		BankInfo b=new BankInfo();
 		b.saving();
 		b.fixed();
 		b.deposit();
+		b.expectedSalary();
 	}
 }
